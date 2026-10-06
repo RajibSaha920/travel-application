@@ -13,12 +13,12 @@ const Hero = () => {
                 <h1 className='text-[25px] sm:pt-1 mb-4 md:mb-0 text-center md:text-[35px] sm:text-[20px] sm:text-sm xs:text-xl lg:text-[45px] tracking-[0.7rem] text-white font-bold uppercase'>Let&apos;s Enjoy Bhutan</h1>
                 <p className='md:text-base text-center text-lg text-white font-normal [word-spacing:3px]'> Explore the beauty of Bhutan with your friends and family.</p>
             </div>
-            <SearchBox/>
-            <Link href='#' className='rounded px-14 md:px-28 -mt-4 py-2.5 overflow-hidden group bg-[#b31212] relative hover:bg-linear-to-r
+            {/* <SearchBox/> */}
+            {/* <Link href='#' className='rounded px-14 md:px-28 -mt-4 py-2.5 overflow-hidden group bg-[#b31212] relative hover:bg-linear-to-r
              hover:from-red-500 text-white hover:ring-2 hover:ring-offset-2 hover:ring-red-400 transition-all ease-out duration-300'>
             <span className='absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease '></span>
             <span>Search</span>
-            </Link>
+            </Link> */}
         </div>
      </div>
     </div>
