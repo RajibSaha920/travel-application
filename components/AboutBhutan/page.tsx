@@ -226,7 +226,7 @@ const [activeTab, setActiveTab] = useState<"travel" | "elevations">("travel");
             >
               <div className="relative h-56 w-full bg-gray-100">
                 <Image
-                  src="/images/newsimg3.jpg" // Replace with your image
+                  src="/images/Society.jpg" // Replace with your image
                   alt="People of Bhutan in traditional dress"
                   fill
                   className="object-cover"
