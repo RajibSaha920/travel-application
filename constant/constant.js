@@ -26,7 +26,7 @@ export const navLinks = [
     },
     {
         id:6,
-        url:'#',
+        url:'/tour',
         label:'Tour package'
     },
     {

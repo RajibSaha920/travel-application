@@ -406,7 +406,7 @@ const [activeTab, setActiveTab] = useState<"travel" | "elevations">("travel");
             {/* Fact 1: GNH */}
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between hover:-translate-y-1 transition duration-200">
               <div>
-                <div className="w-12 h-12 rounded-xl bg-green-50 text-green-600 flex items-center justify-center text-xl mb-4">
+                <div className="w-12 h-12 rounded-xl bg-[green]-50 text-[#b31212] flex items-center justify-center text-xl mb-4">
                   <FaSmile />
                 </div>
                 <h4 className="font-bold text-gray-900 mb-2">Gross National Happiness</h4>
@@ -420,7 +420,7 @@ const [activeTab, setActiveTab] = useState<"travel" | "elevations">("travel");
             {/* Fact 2: Carbon Negative */}
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between hover:-translate-y-1 transition duration-200">
               <div>
-                <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl mb-4">
+                <div className="w-12 h-12 rounded-xl bg-emerald-50 text-[#b31212] flex items-center justify-center text-xl mb-4">
                   <FaTree />
                 </div>
                 <h4 className="font-bold text-gray-900 mb-2">World&apos;s Only Carbon-Negative</h4>
