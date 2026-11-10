@@ -16,12 +16,12 @@ export const navLinks = [
     },
     {
         id:4,
-        url:'#',
+        url:'/trek',
         label:'Travel Trips'
     },
      {
         id:5,
-        url:'#',
+        url:'/artistthought',
         label:'Artist Thoughts'
     },
     {
@@ -31,7 +31,7 @@ export const navLinks = [
     },
     {
         id:7,
-        url:'#',
+        url:'/contact',
         label:'Contact'
     },
 ]
