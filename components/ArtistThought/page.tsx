@@ -5,12 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import {
-  galleryItems,
-  galleryCategories,
-  GalleryCategory,
-  GalleryItem,
-} from "@/data/galleryData_1";
+import { galleryItems, galleryCategories } from "@/data/galleryData";
 import {
   FaMapMarkerAlt,
   FaTimes,
@@ -23,10 +18,25 @@ import {
   FaQuoteLeft,
   FaPalette,
 } from "react-icons/fa";
+
+interface GalleryItem {
+  id: number;
+  title: string;
+  category: string;
+  location: string;
+  image: string;
+  description: string;
+  featured?: boolean;
+  isArtPiece?: boolean;
+  artistName?: string;
+  medium?: string;
+  artistThought?: string;
+}
 import Banner from "./Banner";
 
-export default function ArtistThought() {
-  const [activeCategory, setActiveCategory] = useState<GalleryCategory>("All");
+export default function Gallery() {
+  // ✅ Use <string> instead of <GalleryCategory>
+  const [activeCategory, setActiveCategory] = useState<string>("All");
   const [selectedPhoto, setSelectedPhoto] = useState<GalleryItem | null>(null);
 
   useEffect(() => {
