@@ -6,7 +6,7 @@ import TourCard from './TourCard'
 const TourPackages = () => {
   return (
     <div className='pb-20 pt-10'>
-      <SectionHeading heading='Recommended Tour Packages' />
+      <SectionHeading heading='Recommended Tour Packages' content='Explore our carefully curated tour packages designed to give you the ultimate experience in the Land of the Thunder Dragon.' />
       <div className='w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-center mt-16'>
         {
             tourPackagesData.map((data, index)=>{

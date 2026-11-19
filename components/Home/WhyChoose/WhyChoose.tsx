@@ -5,7 +5,7 @@ import WhyChooseCard from './WhyChooseCard'
 const WhyChoose = () => {
   return (
     <div className='pt-16 pb-24 border border-gray-300'>
-        <SectionHeading heading='Why Choose Us' />
+        <SectionHeading heading='Why Choose Us' content='We offer the best travel experiences with competitive prices and exceptional customer service.' />
         <div className='grid w-[80%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center mt-20'>
             <div data-aos="fade-right"
                     data-aos-duration="1000" data-aos-anchor-placement="top-center"

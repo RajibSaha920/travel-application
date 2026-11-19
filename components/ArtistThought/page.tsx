@@ -10,7 +10,7 @@ import {
   galleryCategories,
   GalleryCategory,
   GalleryItem,
-} from "@/data/galleryData";
+} from "@/data/galleryData_1";
 import {
   FaMapMarkerAlt,
   FaTimes,
